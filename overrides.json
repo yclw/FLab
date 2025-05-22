@@ -1,0 +1,15 @@
+{
+    "@jupyterlab/translation-extension:plugin": {
+        "locale": "zh_CN"
+    },
+    "@jupyterlab/notebook-extension:panel": {
+        "toolbar": [
+            {
+                "name": "runAll",
+                "label": "运行全部",
+                "command": "notebook:run-all-cells",
+                "rank": 50
+            }
+        ]
+    }
+}
